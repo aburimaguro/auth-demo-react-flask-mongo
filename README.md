@@ -280,12 +280,6 @@ Documents saved to the users database:
 ![Mongo Records](/screenshots/db/mongo_record.png)
 
 
-# **Contributing**
-
-Suggestions and pull requests are welcome.
-
-
-
 # **License**
 
 MIT License
