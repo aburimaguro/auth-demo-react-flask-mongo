@@ -1,0 +1,124 @@
+/* Reset some defaults */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f6fa;
+  color: #2f3640;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #0984e3;
+}
+
+nav button {
+  margin-left: 8px;
+  padding: 6px 14px;
+  border: none;
+  background: #0984e3;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+nav button:hover {
+  background: #74b9ff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin-bottom: 16px;  /* Adds space below the title */
+  color: #0984e3;       /* Optional: make it match header color */
+  font-size: 22px;      /* Slightly larger than normal text */
+  font-weight: 600;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;  
+  margin-bottom: 16px;     
+  font-weight: 500;
+  font-size: 14px;
+  color: #2f3640;
+}
+
+form input {
+  margin-top: 6px;         
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #dcdde1;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+form button {
+  padding: 10px;
+  border: none;
+  background: #00b894;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #55efc4;
+}
+
+p {
+  margin-top: 10px;
+  color: #636e72;
+}
+
+.profile-info {
+  margin-bottom: 15px;
+}
+
+.profile-info p {
+  margin-bottom: 6px;
+}
+
+button.logout-btn {
+  background-color: #e74c3c;   /* Red base */
+  color: white;
+  font-weight: bold;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.logout-btn:hover {
+  background-color: #c0392b;   /* Darker red on hover */
+}
+
