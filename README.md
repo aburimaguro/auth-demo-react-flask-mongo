@@ -1,9 +1,7 @@
-# **Auth Demo — React + Flask + MongoDB**
+# **Auth Demo: React + Flask + MongoDB**
 
 A simple full-stack authentication system built with React (frontend), Flask (backend), and MongoDB (database).
 This project demonstrates a clean, minimal, real-world authentication workflow using secure password hashing, JWT-based authentication, and protected routes.
-
----
 
 ## **Features**
 
@@ -37,8 +35,6 @@ This project demonstrates a clean, minimal, real-world authentication workflow u
 * MongoDB collection: `users`
 * Stores hashed passwords and user metadata
 
----
-
 ## **Tech Stack**
 
 ### Frontend
@@ -61,7 +57,7 @@ This project demonstrates a clean, minimal, real-world authentication workflow u
 
 * MongoDB Community Edition (local installation)
 
----
+
 
 # **Setup Instructions**
 
@@ -73,7 +69,7 @@ This project demonstrates a clean, minimal, real-world authentication workflow u
 * MongoDB Community Server
 * Git
 
----
+
 
 # **Backend Setup (Flask)**
 
@@ -123,7 +119,7 @@ The backend will be available at:
 http://127.0.0.1:5000
 ```
 
----
+
 
 # **Frontend Setup (React)**
 
@@ -157,7 +153,7 @@ The frontend will be available at:
 http://localhost:3000
 ```
 
----
+
 
 # **Running the Full Application**
 
@@ -184,7 +180,7 @@ cd frontend
 npm start
 ```
 
----
+
 
 # **Authentication Flow**
 
@@ -196,7 +192,7 @@ npm start
 6. Protected routes include the token in request headers.
 7. Backend authorizes access using the provided token.
 
----
+
 
 # **Environment Variables**
 
@@ -213,7 +209,7 @@ JWT_SECRET=your_secret
 REACT_APP_API_URL=http://localhost:5000
 ```
 
----
+
 
 # **Useful Scripts**
 
@@ -231,7 +227,7 @@ npm start
 npm run build
 ```
 
----
+
 
 # **Future Improvements**
 
@@ -243,17 +239,15 @@ npm run build
 * Deployment using Docker
 * Role-based access control
 
----
 
 # **Screenshots**
 
----
 
 # **Contributing**
 
 Suggestions and pull requests are welcome.
 
----
+
 
 # **License**
 
