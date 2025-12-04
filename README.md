@@ -242,18 +242,20 @@ npm run build
 
 # **Screenshots**
 
+
 ## Frontend (React)
 
 The Login Page:
 ![Login Page](/screenshots/frontend/login.png)
 
-The Registration Page
+The Registration Page:
 ![Registration Page](/screenshots/frontend/signup.png)
 
-The Profile Page
+The Profile Page:
 ![Profile Page](/screenshots/frontend/profile_signed_in.png)
 
 ## Backend Endpoints (Flask)
+
 
 The Registration Endpoint:
 ![Registration Endpoint](/screenshots/backend/register_endpoint.png)
@@ -270,6 +272,7 @@ The "Me" Endpoint:
 
 The Logout Endpoint:
 ![Logout Endpoint](/screenshots/backend/logout_endpoint.png)
+
 
 ## Database Records (MongoDB)
 
