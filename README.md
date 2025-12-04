@@ -273,6 +273,7 @@ The Logout Endpoint:
 
 ## Database Records (MongoDB)
 
+Documents saved to the users database:
 ![Mongo Records](/screenshots/db/mongo_record.png)
 
 
