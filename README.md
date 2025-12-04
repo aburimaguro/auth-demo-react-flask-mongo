@@ -242,6 +242,39 @@ npm run build
 
 # **Screenshots**
 
+## Frontend (React)
+
+The Login Page:
+![Login Page](/screenshots/frontend/login.png)
+
+The Registration Page
+![Registration Page](/screenshots/frontend/signup.png)
+
+The Profile Page
+![Profile Page](/screenshots/frontend/profile_signed_in.png)
+
+## Backend Endpoints (Flask)
+
+The Registration Endpoint:
+![Registration Endpoint](/screenshots/backend/register_endpoint.png)
+
+The Login Endpoint:
+![Login Endpoint](/screenshots/backend/login_endpoint.png)
+
+The Refresh Endpoint:
+![Refresh Endpoint 1/2](/screenshots/backend/refresh_endpoint_1_1.png)
+![Refresh Endpoint 2/2](/screenshots/backend/refresh_endpoint_1_2.png)
+
+The "Me" Endpoint:
+![Me Endpoint](/screenshots/backend/me_endpoint.png)
+
+The Logout Endpoint:
+![Logout Endpoint](/screenshots/backend/logout_endpoint.png)
+
+## Database Records (MongoDB)
+
+![Mongo Records](/screenshots/db/mongo_record.png)
+
 
 # **Contributing**
 
