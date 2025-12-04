@@ -1,0 +1,59 @@
+# ===============================
+# Python / Flask backend
+# ===============================
+# Virtual environment
+backend/.venv/
+
+# Compiled Python files
+backend/__pycache__/
+backend/*.pyc
+
+# Environment variables (contains secrets like Mongo URI and JWT secret)
+backend/.env
+
+# ===============================
+# Node / React frontend
+# ===============================
+# Node modules
+frontend/node_modules/
+
+# React production build
+frontend/build/
+
+# Frontend environment variables (API URLs or keys)
+frontend/.env
+
+# Optional React cache
+frontend/.cache/
+
+# ===============================
+# OS / Editor files
+# ===============================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VSCode and JetBrains IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Swap files (vim, etc.)
+*.swp
+*.swo
+
+# ===============================
+# MongoDB / database files
+# ===============================
+# We don’t commit MongoDB data
+*.lock
+
+# ===============================
+# Notes
+# ===============================
+# This ignores files that are automatically generated, contain secrets, or are environment-specific.
+
